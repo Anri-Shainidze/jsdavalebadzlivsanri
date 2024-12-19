@@ -1,12 +1,12 @@
 
-const text = "hello world";
+const txt = "hello world";
 
 const container = document.getElementById("container");
 
 
-text.split("").forEach(char => {
+txt.split("").forEach(ragac => {
     const div = document.createElement("div");
     div.classList.add("char");
-    div.textContent = char;
+    div.textContent = ragac;
     container.appendChild(div);
 });
