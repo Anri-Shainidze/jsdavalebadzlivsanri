@@ -1,5 +1,5 @@
 
-const txt = "hello world";
+const txt = "Hello World";
 
 const container = document.getElementById("container");
 
